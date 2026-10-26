@@ -1,0 +1,48 @@
+{
+  "name": "default",
+  "description": "Dark, high-contrast, editorial. Copy this file to make another style and pass its name to ae_style_guide.",
+  "canvas": { "width": 1920, "height": 1080, "fps": 30 },
+  "safeMargin": 0.07,
+  "grid": { "columns": 12, "gutter": 24 },
+  "palette": {
+    "bg": "#0E0E12",
+    "surface": "#1A1A21",
+    "fg": "#F4F1EA",
+    "muted": "#8C8A93",
+    "accent": "#FF5A36",
+    "accent2": "#5B8CFF"
+  },
+  "fonts": {
+    "display": "Bahnschrift-Bold",
+    "body": "Bahnschrift-Regular",
+    "semibold": "Bahnschrift-SemiBold",
+    "light": "Bahnschrift-Light",
+    "condensed": "Bahnschrift-BoldCondensed",
+    "cjk": "MicrosoftJhengHeiBold",
+    "cjkBody": "MicrosoftJhengHeiRegular",
+    "cjkLight": "MicrosoftJhengHeiLight",
+    "alsoAvailable": ["Arial-BoldMT", "Calibri-Bold", "Corbel-Bold", "Georgia-Bold", "Impact", "SegoeUIBlack", "MicrosoftYaHei-Bold"],
+    "unavailable": "Segoe UI (regular/bold/semibold) is not visible to After Effects on this PC; it falls back to Times New Roman."
+  },
+  "type": {
+    "display": 160,
+    "title": 96,
+    "subtitle": 56,
+    "body": 40,
+    "caption": 28,
+    "trackingDisplay": -20,
+    "trackingCaps": 120
+  },
+  "motion": {
+    "in": { "ease": "out_expo", "duration": 0.7 },
+    "out": { "ease": "in_expo", "duration": 0.45 },
+    "move": { "ease": "in_out_expo", "duration": 0.9 },
+    "stagger": 0.06,
+    "minHold": 1.2
+  },
+  "notes": [
+    "Accent color on at most one element per moment.",
+    "Background is never pure black; use bg plus a subtle gradient or grain.",
+    "Large type can be tightly tracked; small caps text gets wide tracking."
+  ]
+}

@@ -1,0 +1,6 @@
+.spool/
+server/bin/
+server/obj/
+server/dist/
+renders/
+projects/
